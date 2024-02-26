@@ -12,29 +12,29 @@ A Recurrent Neural Network (RNN) is a type of artificial neural network specific
 
 Recurrent Neural Networks (RNNs) are a class of artificial neural networks designed to handle sequential data, where the order of information matters. Unlike traditional neural networks, which treat each data point independently, RNNs can process information by considering the context of past data points.
 
-##Key Concepts
+## Key Concepts
 
-##Sequential Data: 
+### Sequential Data: 
 RNNs are designed to handle data that comes in a sequence, where the order matters. Examples include text, time-series data (like stock prices), or audio signals.
 
-##Hidden State (Memory): 
+### Hidden State (Memory): 
 The core feature of an RNN is its "hidden state." This acts like a memory, allowing it to remember information from previous steps in the sequence.
 
-##Looping Structure: 
+### Looping Structure: 
 RNNs process data in a loop. At each step of the sequence:
 The RNN takes the current input and the previous hidden state as inputs.
 It processes these inputs to produce a new output and an updated hidden state.
 The updated hidden state is passed on to the next step in the sequence.
 
-##Understanding the Process
+## Understanding the Process
 
-##Initialization: 
+### Initialization: 
 The RNN starts with an initial hidden state (often set to zeros).
 Input Processing: At each time step:
 The current input (e.g., a word in a sentence) is combined with the hidden state from the previous step.
 A neural network within the RNN processes this combined information.
 
-##Output and Update:
+### Output and Update:
 The RNN generates an output (e.g., predicts the next word, classifies the sentiment of the text).
 The hidden state is updated based on the current input and previous state, preserving relevant information across the sequence.
 Repetition: This process repeats for each element in the sequence.

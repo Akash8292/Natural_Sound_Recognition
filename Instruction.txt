@@ -1,0 +1,14 @@
+Instructions for Using Natural Sound Recognition
+
+1.) Natural_sound_Recognition.ipynb:
+This Jupyter Notebook contains the implementation of the proposed sound recognition model in Python.
+To train the model, follow these steps:
+Open the Natural_sound_Recognition.ipynb file.
+Execute each cell in the notebook sequentially.
+The code lines are self-explanatory and guide you through the process.
+Make sure you have the necessary data and any required adjustments (such as file paths) before running the notebook.
+
+2.)requirements.txt:
+This file lists the required Python packages and their versions.
+To install the dependencies, run the following command in your terminal or command prompt:
+pip install -r requirements.txt

@@ -41,12 +41,12 @@ Repetition: This process repeats for each element in the sequence.
 
 Here's a breakdown of how RNNs work:
 
-_1_. The basic unit: The Cell:
+1. The basic unit: The Cell:
 
 The core of an RNN is a cell, which takes input, processes it, and outputs a value. This cell also has a memory state that allows it to store information from previous inputs.
 During training, the cell learns how to update its internal parameters based on the current input and its previous state.
 
-_2_. Information Flow:
+2. Information Flow:
 
 An RNN processes data one step at a time. At each step, it:
 Receives an input: This can be a new data point from the sequence.
@@ -54,19 +54,19 @@ Combines the input with its current memory state: This allows the network to con
 Activates its internal function: This function processes the combined input and memory, generating an output.
 Updates its memory state: The cell updates its internal state based on the current input and its previous state. This allows it to "remember" relevant information for future processing.
 
-_3_. Unfolding the RNN:
+3. Unfolding the RNN:
 
 Imagine stacking multiple copies of the same cell one after another. This is how we create an unfolded RNN.
 Each cell in the sequence receives the output from the previous cell as part of its input, allowing information to flow throughout the network.
 
-_4_. Types of RNNs:
+4. Types of RNNs:
 
 While the basic concept remains the same, there are different types of RNNs with specific functionalities:
 Vanilla RNNs: These suffer from the vanishing gradient problem, where long-term dependencies become difficult to learn.
 Long Short-Term Memory (LSTM) networks: These have additional mechanisms to better handle long-term dependencies.
 Gated Recurrent Units (GRUs): Another variation that addresses the vanishing gradient problem with a simpler architecture than LSTMs.
 
-_5_. Applications of RNNs:
+5. Applications of RNNs:
 
 RNNs are powerful tools for various tasks involving sequential data, such as:
 Speech recognition

@@ -79,6 +79,8 @@ The above explanation provides a basic understanding of how RNNs work. It's impo
 
 
 ## Highlights
+![Wav](https://github.com/Akash8292/Natural_Sound_Recognition/assets/98084760/7d093421-0a8e-489c-9c12-b8392fd01f78)
+
 
 ### WAV to Spectrum
 Before jumping into how to create spectrum, let us first understand the structure of wav file and how it is read in Python. The wav file is collection of samples like image is collection of pixels. The sample rate is the number of sample used per second to record analog audio and store in the form of digital audio. Here the sample rate is 44100 Hz and each wav file is of 5 seconds, so each wav file has 220500 samples. The wav to spectrum follows the path : Wav -> Waveform -> Spectrogram -> Spectrum.

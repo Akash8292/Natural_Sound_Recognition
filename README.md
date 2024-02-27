@@ -103,6 +103,7 @@ The waveform is then transformed into a spectrogram, which is a visual represent
 
 Python>=3.6
 
+## Getting started
 1. Clone the repository or download the zip file.
 2. Install necessary packages using pip install -r requirements.txt
 6. Run the Natural_Sound_Recognition.ipynb file to use the pretrained model on custom wav file, change path of model and wav file accordingly.

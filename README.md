@@ -101,7 +101,7 @@ The waveform is then transformed into a spectrogram, which is a visual represent
 
 ## Prerequisites
 
-Python>=3.6
+Python>=3.8
 
 ## Getting started
 1. Clone the repository or download the zip file.

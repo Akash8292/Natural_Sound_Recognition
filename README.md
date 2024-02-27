@@ -81,13 +81,20 @@ The above explanation provides a basic understanding of how RNNs work. It's impo
 ## Highlights
 
 ### WAV to Spectrum
-Before jumping into how to create spectrum, let us first understand the structure of wav file and how it is read in Python. The wav file is collection of samples like image is collection of pixels. The sample rate is the number of sample used per second to record analog audio and store in the form of digital audio. Here the sample rate is 44100 Hz and each wav file is of 5 seconds, so each wav file has 220500 samples. The wav to spectrum follows the path : Wav -> Waveform -> Spectrogram -> Spectrum.
+First we have  understand the basic structure of a WAV file and how it's handled in Python. Just like an image is made up of pixels, a WAV file consists of audio samples. The sample rate represents the number of samples captured per second to convert analog audio to digital form. In this case, the sample rate is 44100 Hz, meaning each second of audio comprises 44100 samples. As the WAV file is 4 seconds long, it contains a total of 176400 samples.
+
+The conversion from a WAV file to a spectrum involves traversing through different stages: from WAV to waveform, then to a spectrogram, and finally to a spectrum.
+
+WAV to Waveform: In this stage, the digital representation of the audio samples is transformed into a waveform, which depicts the amplitude of the audio signal over time. This step involves reading the digital audio data from the WAV file and interpreting it as a continuous waveform.
 
 ![Wav](https://github.com/Akash8292/Natural_Sound_Recognition/assets/98084760/7d093421-0a8e-489c-9c12-b8392fd01f78)
 
 ![image](https://github.com/Akash8292/Natural_Sound_Recognition/assets/98084760/46086bb3-4288-4a44-8fad-0dc805eb23e4)
 
+Waveform to Spectrogram: The waveform is then transformed into a spectrogram, which is a visual representation of the spectrum of frequencies in the audio signal as they vary with time. This is achieved through techniques such as Short-Time Fourier Transform (STFT), which converts the audio signal into its frequency domain representation.
+
 ![image](https://github.com/Akash8292/Natural_Sound_Recognition/assets/98084760/902fd2ee-0ed0-4856-9d42-eb9cd493e0e2)
+
 
 
 ## Prerequisites

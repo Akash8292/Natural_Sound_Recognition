@@ -95,7 +95,7 @@ Before jumping into how to create spectrum, let us first understand the structur
 Python>=3.6
 
 1. Clone the repository or download the zip file.
-2. Install necessary packages using pip install -r requirements.txt.
+2. Install necessary packages using ***bash pip install -r requirements.txt ***.
 3. Run the custom.ipynb file to use the pretrained model on custom wav file, change path of model and wav file accordingly.
 4. Read the instructions.txt for better understanding of repository.
 

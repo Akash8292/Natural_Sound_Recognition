@@ -110,4 +110,4 @@ Python>=3.6
 
 ## Future Scope
 
-In future, I am looking forward to increasing the accuracy using data preprocessing (like data cleaning, data analysis) and also improve via trying out different models.
+In future, I am looking forward to increasing the accuracy using data preprocessing, data cleaning and also improve via trying out different models.

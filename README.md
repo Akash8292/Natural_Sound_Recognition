@@ -1,4 +1,5 @@
 # About
+
 ## Abstract
 This repository presents a Recurrent Neural Network (RNN) model capable of classifying sounds into 10 distinct categories, covering nature sounds, human non-speech sounds, music and more. The model boasts an impressive accuracy of 90% in achieving its classification task.The model operates by analyzing the processed spectrum of a WAV file, a two-dimensional representation of the sound's frequency content. Based on the processed data, the model predicts the corresponding sound category.This repository offers a clear and concise overview of a sound classification system utilizing RNNs, potentially serving as a valuable resource for those interested in exploring this field.
 
